@@ -21,7 +21,10 @@
         </div>
     </div>
 
-    <!-- Star Background -->
+    <!-- Galaxy Background Layers -->
+    <div class="galaxy-layer"></div>
+    
+    <!-- Star Background with Nebula -->
     <div class="stars-container">
         <div class="stars"></div>
         <div class="stars2"></div>
@@ -41,7 +44,11 @@
                 </div>
             </div>
             <!-- Moon in front -->
-            <img src="assets/images/Moon.png" class="big-moon" alt="Moon">
+            <img src="assets/images/Moon.png" class="big-moon" alt="Moon" draggable="false">
+            <!-- Click hint bubble -->
+            <div class="click-hint-bubble">
+                <span>Click me!</span>
+            </div>
         </div>
         
         <div class="hero-content">
@@ -247,9 +254,7 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
     <script src="js/peek-system.js"></script>
-    <script type="module" src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
